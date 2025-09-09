@@ -88,7 +88,11 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📞 Contact
 
-Project Link: [https://github.com/naninanides/EKS-with-existing-VPC](https://github.com/naninanides/EKS-with-existing-VPC)
+- **Project Link**: [https://github.com/naninanides/EKS-with-existing-VPC](https://github.com/naninanides/EKS-with-existing-VPC)
+- **LinkedIn**: [Baihaqi Salman Nugraha](https://www.linkedin.com/in/baihaqi-salman/)
+- **Phone**: +62 899-5486-564
+- **Email**: baihaqisalmon@outlook.com
+
 
 ---
-*README ini di-generate otomatis pada 2025-09-09 21:57:31 menggunakan AI README Generator*
+*README ini di-generate otomatis pada 2025-09-09 22:05:07 menggunakan AI README Generator*
