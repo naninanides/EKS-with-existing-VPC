@@ -1,0 +1,31 @@
+# ===================================
+# terraform.tfvars
+# ===================================
+
+#provider variable
+aws_access_key = youre access key
+aws_secret_key = youre secret key
+key_name       = youre key name
+vpc_id         = youre existing vpc id
+
+# Konfigurasi cluster
+cluster_name    = "my-production-eks"
+cluster_version = "1.33"
+
+# Konfigurasi node group
+node_group_name = "production-nodes"
+instance_types  = ["t3.medium"]
+desired_size    = 2
+max_size        = 4
+min_size        = 1
+
+# Region AWS
+region = youre region
+
+# Tags
+tags = {
+  Environment = "production"
+  Project     = "my-app"
+  Owner       = "platform-team"
+  ManagedBy   = "terraform"
+}
