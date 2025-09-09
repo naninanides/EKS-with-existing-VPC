@@ -1,12 +1,12 @@
 # EKS-with-existing-VPC
 
-Repository ini berisi konfigurasi Terraform untuk infrastructure as code.
+This repository contains Terraform configurations for infrastructure as code.
 
-Repository ini menggunakan provider: aws. Terdapat 7 jenis resource yang dikonfigurasi dalam infrastructure ini.
+This repository using provider: aws. There are 7 types of resources configured in this infrastructure.
 
 ## 📋 Prerequisites
 
-Sebelum menggunakan konfigurasi Terraform ini, pastikan Anda telah menginstall:
+You need to install Terraform and set up your AWS credentials before using this script.
 
 - [Terraform](https://www.terraform.io/downloads.html) (>= None)
 - Provider credentials untuk: aws
@@ -51,7 +51,7 @@ terraform apply
 
 ## 📦 Resources
 
-Konfigurasi ini akan membuat resource berikut:
+This configuration will create the following resources:
 
 - `aws_eks_addon`
 - `aws_eks_cluster`
@@ -63,28 +63,24 @@ Konfigurasi ini akan membuat resource berikut:
 
 ## ⚙️ Variables
 
-Repository ini memiliki 14 variables yang dapat dikustomisasi:
+This repository has 14 customizable variables:
 
 - `aws_region`
 - `cluster_name`
 - `cluster_version`
 - `node_group_name`
 - `instance_types`
-- Dan 9 variables lainnya...
+- And 9 additional variables...
 
-Lihat file `variables.tf` untuk detail lengkap.
+See the file `variables.tf` for more detail.
 
 ## 🤝 Contributing
 
-1. Fork repository ini
-2. Buat feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit perubahan (`git commit -m 'Add amazing feature'`)
-4. Push ke branch (`git push origin feature/amazing-feature`)
-5. Buka Pull Request
-
-## 📝 License
-
-Distributed under the MIT License. See `LICENSE` for more information.
+- Fork this repository
+- Create a feature branch (git checkout -b feature/amazing-feature)
+- Commit your changes (git commit -m 'Add amazing feature')
+- Push to the branch (git push origin feature/amazing-feature)
+- Open a Pull Request
 
 ## 📞 Contact
 
@@ -95,4 +91,4 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 
 ---
-*README ini di-generate otomatis pada 2025-09-09 22:05:07 menggunakan AI README Generator*
+*This README was automatically generated on 2025-09-09 23:07:06*
